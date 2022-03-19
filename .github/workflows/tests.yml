@@ -24,4 +24,4 @@ jobs:
       - name: Compilation
         run: mvn clean compile
       - name: Run tests
-        run: mvn clean tests
+        run: mvn clean test
